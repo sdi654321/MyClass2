@@ -16,7 +16,7 @@ public class NewActivity extends AppCompatActivity {
         Intent intent = getIntent();
         if(intent !=null){
             String loginnames = intent.getStringExtra("loginName");
-            Toast.makeText(getApplicationContext(),"전달받은 데이터"+ loginnames, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"전달받은 데이터."+ loginnames, Toast.LENGTH_LONG).show();
         }
         Toast.makeText(getApplicationContext(),"user 안의 이름"+ User.Name, Toast.LENGTH_LONG).show();
 
